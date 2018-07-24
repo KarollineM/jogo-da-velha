@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">defer</script>
+</head>
+<body>
+        <form name="forms" action="/action_page.php" onsubmit="return validateForm()" target="_blank" method="POST">
+            <div>
+            <input class="digitar" type="text" name="Nome" placeholder=" Nome" value="">
+        </div>
+            <div>    
+            <input class="digitar" type="text" name="Sobrenome" placeholder=" Sobrenome" value="">
+        </div>
+            <div>                
+            <input class="digitar" type="text" name="email" placeholder=" Email" value="">
+        </div>
+        <div>
+            <textarea name="mensagem" placeholder="Message" class="digitar" value="" cols="30" rows="10"></textarea>
+        </div>
+            <button id="Submit" type="button" onClick="validar()">Submit</button>
+        </div>                        
+          </form>    
+</body>
+</html>

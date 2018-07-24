@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    background-color: gray;
+}
+
+header{
+    text-align: center;
+    font-family: 'sans-serif'
+}
+
+h1{
+    color: red;
+}
+
+nav{
+    height: 50px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#botoes {
+    position: absolute; 
+    right: 10px;
+    top: 10px;
+}
+/*aqui são os links de cima*/
+
+.linkdecima{
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: paleturquoise;
+    border: 1px solid;
+    border-color:turquoise; 
+}
+.img{
+    border-radius:50%;
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 60vw;
+    background-color: whitesmoke;
+}
+
+.sections{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    margin-left: 20px;
+}

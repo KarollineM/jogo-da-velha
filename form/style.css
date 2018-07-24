@@ -1,0 +1,31 @@
+.digitar{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    height: 18px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: #dddcdc;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: left;
+}
+input{
+    margin-bottom: 6px;
+    margin-left: 2px;
+}
+
+textarea{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dddcdc;
+    font-size: 18px;
+}
+
+.botao{
+    margin-top: 6px;
+    border-radius: 5px;
+}
